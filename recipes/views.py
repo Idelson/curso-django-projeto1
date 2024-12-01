@@ -6,3 +6,9 @@ def home(request):
         'name': 'Idelson Júnior'
     })
 
+
+# Create your views here.
+def recipe(request, id):
+    return render(request, 'recipes/pages/recipe-view.html', context={
+        'name': 'Idelson Júnior'
+    })
